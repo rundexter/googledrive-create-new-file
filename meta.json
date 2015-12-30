@@ -4,23 +4,60 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "ignoreDefaultVisibility",
+            "title":"Ignore Visibility? [false]"
+        },
+        {
+            "id": "keepRevisionForever",
+            "title":"Keep Revision Forever? [false]"
+        },
+        {
+            "id": "ocrLanguage",
+            "title":"OCR Language"
+        },
+        {
+            "id": "useContentAsIndexableText",
+            "title":"Indexible Text?"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
+
         {
-            "id": "from",
-            "title":"From"
+            "id": "id",
+            "title":"ID"
+        },
+        {
+            "id": "name",
+            "title":"Name"
+        },
+        {
+            "id": "description",
+
+            "title":"Description"
+        },
+        {
+            "id": "parents",
+            "title":"Parents"
+        },
+        {
+            "id": "createdTime",
+            "title":"Created At"
+        },
+        {
+            "id": "owners",
+            "title":"Owner Emails"
+        },
+        {
+            "id": "size",
+            "title":"Size"
+        },
+        {
+            "id": "indexableText",
+            "title":"Indexable Text"
         }
-      */
     ],
+    "icon": "dex-drive",
     "title": "Google Drive Create New File" /* Required.A display name for the module */
 }
