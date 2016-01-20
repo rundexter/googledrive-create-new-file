@@ -34,7 +34,6 @@
         },
         {
             "id": "description",
-
             "title":"Description"
         },
         {
@@ -58,6 +57,15 @@
             "title":"Indexable Text"
         }
     ],
+    "providers": [{
+        "name": "google",
+        "scopes": [
+            "https://www.googleapis.com/auth/drive",
+            "https://www.googleapis.com/auth/drive.appdata",
+            "https://www.googleapis.com/auth/drive.apps.readonly",
+            "https://www.googleapis.com/auth/drive.file"
+        ]
+    }],
     "icon": "dex-drive",
     "title": "Google Drive Create New File" /* Required.A display name for the module */
 }
